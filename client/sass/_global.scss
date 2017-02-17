@@ -1,0 +1,28 @@
+$body-font: 'Helvetica';
+$body-font-color: #fff;
+$body-font-size: 24px;
+
+$size-small: 10px;
+$body-color: blue;
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    background: $body-color;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding: $size-small * 2;
+    font-family: $body-font;
+    color: $body-font-color;
+}
+
+.body-text {
+    font-weight: 700;
+    font-size: $body-font-size;
+}
+
